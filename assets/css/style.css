@@ -1,0 +1,150 @@
+/*
+* Teal color (used for headings and backgrounds): `#4aaaa5`
+* Regular font color (used for paragraphs and all text besides the headings): `#777777`
+* Main header background color: `#ffffff`
+* Main header border color: `#cccccc`
+* Footer background color: `#666666`
+* Main content background color: `#ffffff`
+* Main content border color: `#dddddd`
+*/
+
+
+/* Fonts:
+* For heading fonts use `font-family: 'Georgia', Times, Times New Roman, serif;`.
+* For all other fonts use `'Arial', 'Helvetica Neue', Helvetica, sans-serif;`.
+*/
+
+
+header { 
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    background-color: #ffffff;
+    float: left;
+    border: 2px solid #cccccc;
+    padding:0px;
+    margin: 0px 10px 10px 10px;
+    width: 100%;
+}
+
+.head1{
+    float: left;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: whitesmoke;
+    width:650;
+    background-color:#4aaaa5;
+    padding: 20px 40px 20px 40px;
+    margin: 0px 0px 0px 20px;
+
+}
+
+nav{
+    float: left;
+    color:#242121;
+    width: 270px;
+    padding: 20px;
+    margin: 0px 90px 0px 60px;
+    position:relative;
+    left: 390px;
+}
+
+.btna, .btnc, .btnp {
+    float: left;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color:#777777;
+    padding: 0px 10px  0px 10px;
+    margin-right: 2px;
+}
+
+.btna, .btnp{
+    border-right: 2px solid #777777;
+}
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: #ffffff;
+    color: #777777;
+    background-image: url("../images/stucco/stucco.png")
+}
+
+
+.section_head {
+    color: #4aaaa5;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #dddddd;
+    margin-bottom: 20px;
+}
+
+img { padding:0px 20px 10px 0px; }
+
+.section1 {
+    float: left;
+    width: 650px;
+    background-color: white;
+    border: 3px solid #dddddd;
+    margin: 20px 10px 30px 10px;
+    padding: 20px 20px 20px 20px;
+}
+
+.section2 {
+    position: relative;
+    left:10px;
+    float: left;
+    background-color: white;
+    width: 30;
+    border: 3px solid #dddddd;
+    margin: 20px 10px 30px 10px;
+    padding:20px;
+}
+
+.clear {
+    clear: both;
+}
+
+
+
+
+footer {
+    clear: both;
+    background-color: #666666;
+    color: whitesmoke;
+    text-align: center;
+    width: 100%;
+    padding: 35px;
+    border-top: 8px solid #4aaaa5;
+}
+
+/*
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+*/
